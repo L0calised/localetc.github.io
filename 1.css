@@ -1,0 +1,66 @@
+body{
+    background-color: #ede8f5;
+    font-family: "Varela Round" ;
+}
+
+.varela-round-regular {
+    font-family: "Varela Round", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+a{
+
+}
+h1{
+    font-size: 50px;
+}
+  
+
+.a{ grid-area: A;}
+.b{ grid-area: B;}
+.c{ grid-area: C;}
+.d{ grid-area: D;}
+.e{ grid-area: E;}
+
+.main{
+    display: grid;
+    grid-template-areas: 
+        "A A\ A"
+
+        "B B C"
+        
+        "D D D"
+        
+        "E E E"
+        
+        ;
+    grid-template-rows: 50px 400px 400px 400px;
+    gap: 10px;
+    padding: 10px;
+    height: 100vh;
+
+}
+
+.main>div{
+    border: 2px solid black;
+    
+}
+
+
+.logo{
+    padding-left: 10px;
+}
+
+.a{
+    display: flex;
+    
+}
+.web{
+    text-align: center;
+    margin: auto;
+}
+
+.b{
+    padding-left: 10px;
+}
